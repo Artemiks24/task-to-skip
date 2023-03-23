@@ -25,7 +25,7 @@ li {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1440px;
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
@@ -44,7 +44,7 @@ li {
 
 .main {
     background-color: #FFFFFF;
-    padding: 80px 50px;
+    padding: 80px 60px;
 }
 
 .title {
@@ -60,6 +60,31 @@ li {
 
 .register {
     display: flex;
-    gap: 60px;
+    gap: 50px;
+}
+
+.register__btn {
+    cursor: pointer;
+    padding: 13px 40px;
+    border: none;
+    color: #FFFFFF;
+    transition: 0.5s ease;
+}
+
+.register__btn:hover {
+    box-shadow: 2px 3px 5px #2A4A5C;
+}
+
+.register__btn--facebook {
+    background-color: #255A9B;
+}
+
+.register__btn--facebook::before {
+    /* content: url(../img//facebook.svg); */
+    
+}
+
+.register__btn--linkedin {
+    background-color: #0076B6;
 }
 
