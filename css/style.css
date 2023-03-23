@@ -60,15 +60,17 @@ li {
 
 .register {
     display: flex;
-    gap: 50px;
+    gap: 40px;
 }
 
 .register__btn {
     cursor: pointer;
-    padding: 13px 40px;
+    padding: 13px 50px;
     border: none;
     color: #FFFFFF;
     transition: 0.5s ease;
+    position: relative;
+    font-size: 14px;
 }
 
 .register__btn:hover {
@@ -80,11 +82,20 @@ li {
 }
 
 .register__btn--facebook::before {
-    /* content: url(../img//facebook.svg); */
-    
+    content: url(../img/facebook.svg);
+    position: absolute;
+    bottom: 20%;
+    left: 8px;
 }
 
 .register__btn--linkedin {
     background-color: #0076B6;
+}
+
+.register__btn--linkedin::before {
+    content: url(../img/linkedin.svg);
+    position: absolute;
+    bottom: 20%;
+    left: 8px;
 }
 
