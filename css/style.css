@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;  
+    font-family: 'Barlow', sans-serif;
+    color: #2A4A5C;
+}
+
+
+ul,
+p,
+h1,
+h3 { padding: 0;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+}
+
+.container {
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    background-color: #EFF6FF;
+    padding: 80px 50px;
+}
+
+.logo {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 60%;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.main {
+    background-color: #FFFFFF;
+    padding: 80px 50px;
+}
+
+.title {
+    margin-bottom: 20px;
+    
+}
+
+.subtitle {
+    font-weight: 500;
+    color: #7B8A92;
+    margin-bottom: 40px;
+}
+
+.register {
+    display: flex;
+    gap: 60px;
+}
+
