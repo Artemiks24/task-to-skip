@@ -17,38 +17,46 @@
             <a href="#"><img src="/task-to-skip/img/logo.svg" alt="logo"></a>
         </div>
         <div class="main">
-            <h1 class="title">Get iinto today</h1>
-            <h3 class="subtitle">There is no charge or obligation upon registration.</h3>
+            <div class="title">Get iinto it today</div>
+            <div class="subtitle">There is no charge or obligation upon registration.</div>
             <div class="register">
                 <button class="register__btn register__btn--facebook">Register with Facebook</button>
                 <button class="register__btn register__btn--linkedin">Register with Linkedin</button>
             </div>
-            <span>or</span>
+            <div class="divider">
+            <p class="divider__line">OR</p>
+            </div>
             <div class="form">
-                <input type="email" id="email"
-                pattern=".+@globex\.com" size="30" placeholder="Email">
-                <input type="tel" id="phone" name="phone"
-                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone"> 
+                <input class="form__input" type="email" id="email"
+                pattern=".+@globex\.com" size="30">
+                <label class="form__label form__label-email" for="email">Email</label>
+                <input class="form__input" type="tel" id="phone" name="phone"
+                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> 
+                <label class="form__label form__label-phone" for="phone">Phone</label>
             </div>
             <div class="types">
-                <div class="types__title">What type of investor are you&</div>
-                <div class="types__subtitle">Select the type of investor you are below</div>
+                <div class="types__title">What type of investor are you?</div>
+                <div class="types__subtitle">Select the type of investor you are below.</div>
                 <div class="types__list">
                    <label>
                     <input type="radio">
                     individual
+                    <img title="i am natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common." class="tip" src="/task-to-skip/img/p.png" alt="">
                    </label>
                    <label>
                     <input type="radio">
                     Business
+                    <img title="i am natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common." class="tip" src="/task-to-skip/img/p.png" alt="">
                    </label>
                    <label>
                     <input type="radio">
                     IRA
+                    <img title="i am natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common." class="tip" src="/task-to-skip/img/p.png" alt="">
                    </label>
                    <label>
                     <input type="radio">
                     Trust
+                    <img title="i am natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common." class="tip" src="/task-to-skip/img/p.png" alt="">
                    </label>
                 </div>
                 <div class="proof">

@@ -13,9 +13,8 @@ body {
 
 
 ul,
-p,
-h1,
-h3 { padding: 0;
+p
+ { padding: 0;
     margin: 0;
 }
 
@@ -25,7 +24,7 @@ li {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1600px;
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
@@ -37,22 +36,28 @@ li {
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    flex-basis: 60%;
+    flex-basis: 65%;
     padding-top: 40px;
     padding-left: 50px;
 }
 
 .main {
     background-color: #FFFFFF;
-    padding: 80px 60px;
+    padding: 80px 85px;
 }
 
 .title {
+    font-size: 32px;
     margin-bottom: 20px;
     
 }
 
 .subtitle {
+    font-size: 20px;
+}
+
+.subtitle,
+.types__subtitle {
     font-weight: 500;
     color: #7B8A92;
     margin-bottom: 40px;
@@ -60,7 +65,8 @@ li {
 
 .register {
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .register__btn {
@@ -98,4 +104,103 @@ li {
     bottom: 20%;
     left: 8px;
 }
+
+.divider {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 15px;
+}
+
+.divider__line{
+    font-size: 14px;
+    padding-left: 20px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .divider__line:before{ 
+    content: " ";
+    background: #AFAFAF;
+    width: 120px;
+    height: 1px;
+    top: 8px;
+    left: 40px;
+    position: absolute;
+  }
+  
+  .divider__line:after{ 
+    content: " ";
+    background: #AFAFAF;
+    width: 120px;
+    height: 1px;
+    bottom: 8px;
+    right: 20px;
+    position: absolute;
+  }
+
+  .form {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .form__input {
+    display: block;
+    width: 45%;
+    padding: 20px 10px;
+    border: 1px solid #EEEEEE;
+  }
+  
+  .form__input:focus {
+    border-color: #EEEEEE;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  }
+  
+  .form__label {
+    font-size: 14px;
+    color: #96A5B1;
+  }
+
+  .form .form__label-email {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+  }
+
+  .form .form__label-phone {
+    position: absolute;
+    top: 5px;
+    left: 300px;
+  }
+
+
+  .types__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .types__subtitle {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  .tip {
+    width: 10px;
+  }
+
+
+  .types__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+  }
+  
+
+
+
+  
+
+ 
 
