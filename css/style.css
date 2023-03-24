@@ -35,7 +35,7 @@ li {
 .logo {
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     flex-basis: 65%;
     padding-top: 40px;
     padding-left: 50px;
