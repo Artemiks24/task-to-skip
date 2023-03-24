@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/task-to-skip/css/normalize.css">
+<link rel="stylesheet" href="/task-to-skip/css/style.css">
+<title>1.1 task</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="#"><img src="/task-to-skip/img/logo.svg" alt="logo"></a>
+        </div>
+        <div class="main">
+            <div class="title">Get iinto it today</div>
+            <div class="subtitle">There is no charge or obligation upon registration.</div>
+            <div class="register">
+                <button class="register__btn register__btn--facebook">Register with Facebook</button>
+                <button class="register__btn register__btn--linkedin">Register with Linkedin</button>
+            </div>
+            <div class="divider">
+            <p class="divider__line">OR</p>
+            </div>
+            <div class="form">
+                <input class="form__input" type="email" id="email"
+                pattern=".+@globex\.com" size="30">
+                <label class="form__label form__label-email" for="email">Email</label>
+                <input class="form__input" type="tel" id="phone" name="phone"
+                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> 
+                <label class="form__label form__label-phone" for="phone">Phone</label>
+            </div>
+            <div class="types">
+                <div class="types__title">What type of investor are you?</div>
+                <div class="types__subtitle">Select the type of investor you are below.</div>
+                <div class="types__list">
+                    <div class="types__item">
+                        <input type="radio" id="Individual"/>
+                        <label for="Individual">Individual</label>
+                        <a href="#" class="hint">
+                            <img src="/task-to-skip/img/p.png" style="width: 10px;" alt="hint">
+                            <span>I am natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span>
+                          </a>
+                    </div>
+                    <div class="types__item">
+                        <input type="radio" id="Business"/>
+                        <label for="Business">Business</label>
+                        <a href="#" class="hint">
+                            <img src="/task-to-skip/img/p.png" style="width: 10px;" alt="hint">
+                            <span>I am natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span>
+                          </a>
+                    </div>
+                    <div class="types__item">
+                        <input type="radio" id="IRA"/>
+                        <label for="IRA">IRA</label>
+                        <a href="#" class="hint">
+                            <img src="/task-to-skip/img/p.png" style="width: 10px;" alt="hint">
+                            <span>I am natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span>
+                          </a>
+                    </div>
+                    <div class="types__item">
+                        <input type="radio" id="Trust"/>
+                        <label for="Trust">Trust</label>
+                        <a href="#" class="hint">
+                            <img src="/task-to-skip/img/p.png" style="width: 10px;" alt="hint">
+                            <span>I am natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</span>
+                          </a>
+                    </div>
+                </div>
+                <div class="proof">
+                        <input type="checkbox" id="check">
+                        <label for="check"> i agree to the terms and receiving notifications from iintoo <a href="#">View full terms</a></label>
+                       <button class="proof__btn">Create Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
